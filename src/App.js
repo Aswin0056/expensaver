@@ -1,22 +1,21 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./Login";
-import Dashboard from "./Dashboard";
-import Expenses from "./Expenses";  // Import the Expenses page
+import Login from "./Login"; // Make sure this is correct
 import Register from "./Register";
-import Income from "./Income";
+import Dashboard from "./Dashboard";
+import Expenses from "./Expenses";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/expenses" element={<Expenses />} />  {/* New Route */}
         <Route path="/register" element={<Register />} />
-        <Route path="/income" element={<Income />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/expenses" element={<Expenses />} />
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
