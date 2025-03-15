@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/expensaver/static/css/main.5b2c75ec.css",
+    "main.js": "/expensaver/static/js/main.a370763c.js",
+    "index.html": "/expensaver/index.html",
+    "main.5b2c75ec.css.map": "/expensaver/static/css/main.5b2c75ec.css.map",
+    "main.a370763c.js.map": "/expensaver/static/js/main.a370763c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b2c75ec.css",
+    "static/js/main.a370763c.js"
+  ]
+}
